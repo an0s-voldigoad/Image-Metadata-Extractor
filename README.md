@@ -45,7 +45,10 @@ chmod +x *
 ```
 
 ```
-bash 
+bash extract_metadata.sh
+```
+
+# THANKS FOR READING
 
 
 </body><html>
