@@ -19,16 +19,33 @@
 Ensure Required Tools Are Installed The <code>extract_metadata.sh</code> script might require some external tools like ExifTool for metadata extraction and curl or wget for online searches. Install the required tools first:
 ExifTool: Used for extracting metadata from images.
 
-<code>bash <Copy code> sudo apt-get update sudo apt-get install libimage-exiftool-perl curl/wget</code>: For sending HTTP requests (if the script checks where the image is used online).
+```
+sudo apt-get update sudo apt-get install libimage-exiftool-perl curl/wget
+```
+**: For sending HTTP requests (if the script checks where the image is used online).**
 
-<code>bash <Copy code> sudo apt-get install curl</code> 
+```
+sudo apt-get install curl
+```
 
-OR
+```
+sudo apt-get install wget
+```
 
-<code>bash <Copy code> sudo apt-get install wget</code>
+```
+git clone https://github.com/an0s-voldigoad/Image-Metadata-Extractor.git
+```
 
-install requirements first then use <code>chmod +x image_metadata_extractor.sh</code>
+```
+cd Image-Metadata-Extractor
+```
 
-After Giving Permissions type <code>./extract_metadata.sh</code>
+```
+chmod +x *
+```
+
+```
+bash 
+
 
 </body><html>
