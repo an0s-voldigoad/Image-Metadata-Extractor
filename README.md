@@ -33,7 +33,7 @@ sudo apt-get install wget
 ```
 
 ```
-git clone https://github.com/an0s-voldigoad/Image-Metadata-Extractor.git
+git clone https://github.com/MiSFiT-SeCuRiTY/Image-Metadata-Extractor.git
 ```
 
 ```
